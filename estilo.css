@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #fff;
+    margin: 0;
+    padding: 100px;
+    background-image: url(forestart.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2D1115;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#story {
+    margin-bottom: 20px;
+}
+
+#choices button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #548687;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: #C1EDCC;
+}
